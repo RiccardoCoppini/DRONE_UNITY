@@ -1,0 +1,27 @@
+DRONE NOTE:
+In this project i recreated the movement of a Drone model in a 3D environment and designed 
+the 3D world with models retrieved online.
+A sound for recreate also the propellers of the drone has been implemented. 
+The drone can move and rotate in the environment and also swerve around the horizontal
+axis during the movements.
+The main script of the project is called "Drone_Script.cs".
+To see the scripts open in Visual Studio the file "Drone.sln" or the
+DRONE/Assets/Scripts folder.
+
+Steps for playing:
+1)Open the folder in the Unity environment.
+2)Start in the play mode the game.
+
+Commands:
+"I" Upward movement
+"K" Downward movement
+"J" Left rotation movement around vertical axis
+"L" Right rotation movement around vertical axis
+"Upper arrow" Movement forward
+"Lower arrow" Movement backward
+"Left arrow" Left horizontal translation
+"Right arrow" Right horizontal translation
+
+%% The project was ongoing with further implementations as bullets that could do holes in the
+%% environment when they hit the model in the world.
+%% Leveraging the scripts "DroneGunScript.cs","BulletScript.cs","DroneGunScript.cs".
